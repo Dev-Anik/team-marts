@@ -80,7 +80,11 @@ li{
 .ripple i {
     color: var(--primary-text);
 }
-
+.ripple-p{
+    color: var(--primary-black);
+    margin-top: 1rem;
+    transition: .5s ease-out;
+}
 .ripple:hover::before {
     width: 100%;
     height: 100%;
@@ -136,6 +140,9 @@ li{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+.mb-4rem{
+    margin-bottom: 4rem;
 }
 /* Global Css */
 /* ================================================================= */
@@ -289,18 +296,24 @@ li{
 }
 
 .arrow {
+    cursor: pointer;
     position: relative;
     top: 5px;
     right: 10px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: var(--primary-black);
     border-radius: 50%;
 }
-
+.arrow.green{
+    background: var(--theme-color-1) !important;
+}
+.arrow.green i{
+  color: var(--primary-text) !important;
+}
 .arrow::before {
     content: '';
     position: absolute;
@@ -313,7 +326,29 @@ li{
     background: white;
     transition: width 0.4s ease-out, height 0.4s ease-out;
 }
-
+.arrow.green::before{
+    background: var(--nav-bg) !important;
+}
+.arrow.green:hover .fa-arrow-right{
+    rotate: 0deg;
+}
+.arrow.green:hover::before{
+    width: 100%;
+    height: 100%;
+}
+.box-hover{
+    cursor: pointer;
+}
+.box-hover:hover .arrow.green::before{
+    width: 100%;
+    height: 100%;
+}
+.box-hover:hover .ripple-p{
+    color: var(--theme-color-1);
+}
+.box-hover:hover .fa-arrow-right{
+    rotate: 0deg;
+}
 .fa-arrow-right {
     rotate: -30deg;
     color: var(--primary-text);
@@ -844,4 +879,137 @@ ul.footer-menu-list li a:hover {
     color: var(--primary-black) !important;
     font-weight: 300 !important;
     font-size: 15px !important;
+}
+/* ============================================================================================== */
+                                /* About Us Page Dedicated */
+/* ============================================================================================== */
+#aboutus-hero{
+    display: flex;
+}
+#aboutus-hero .hero-wrapper{
+margin-top: auto;
+padding-bottom: 15rem;
+}
+.hero-content h6{
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--primary-text);
+    text-transform: uppercase;
+}
+#aboutus-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url('../images/about-us-hero.webp') no-repeat center center;
+}
+/* Company Stats */
+.company-details .short-desc-wrapper{
+    padding-left: 0;
+    padding-right: 0;
+}
+.company-wrapper{
+    margin-top: 3rem;
+}
+.stat-details {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin-bottom: 1rem;
+}
+.company-stat-p{
+    margin-bottom: 0;
+}
+.read-more{
+    position: relative;
+}
+.read-more .arrow-wrapper{
+    left: 0 !important;
+}
+.read-more .arrow-wrapper .arrow{
+    right: 0;
+}
+.details-info p {
+    color: var(--primary-text);
+}
+.details-info {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-bottom: 1rem;
+}
+/* vision mission Starts */
+.vision-mission{
+    padding-bottom: 10rem;
+}
+.vm-img{
+    height: 500px;
+}
+.vm-img img{
+    object-fit: cover;
+}
+.vision-wrapper,.mission-wrapper{
+    padding: 8rem 10rem;
+}
+.vision-wrapper{
+    background: var(--theme-color-1);
+}
+.vision-wrapper .hlh-thin{
+    color: var(--primary-text);
+}
+.vision-wrapper p,.mission-wrapper p{
+    color: var(--primary-text);
+    font-weight: 300 !important;
+    margin-top: 2rem;
+}
+.mission-wrapper{
+    background: var(--primary-black);
+    margin-top: 5rem !important;
+    margin-bottom: -5rem;
+}
+/* ============================================================================================== */
+                                /* Our Services Page Dedicated */
+/* ============================================================================================== */
+section.our-service {
+    padding-top: 10rem;
+    background: var(--nav-bg);
+    margin-top: 5rem;
+}
+.left-services {
+    padding-right: 2rem;
+}
+.right-services {
+    padding-left: 2rem;
+}
+.img-box{
+    overflow: hidden;
+}
+.service-img {
+    width: 100%;
+    transition: transform .5s ease;
+}
+.service {
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 12rem;
+}
+.service-name{
+    color: var(--primary-text);
+    margin-top: 2rem;
+    transition: .3s ease-in-out;
+}
+.service:hover .service-img{
+    transform: scale(1.1);
+}
+.service:hover  .arrow.green::before{
+    width: 100%;
+    height: 100%;
+}
+.service:hover  .ripple-p{
+    color: var(--theme-color-1);
+}
+.service:hover .fa-arrow-right{
+    rotate: 0deg;
+}
+.service:hover .service-name{
+    color: var(--theme-color-1);
+}
+.right-services{
+    margin-top: 5rem;
 }

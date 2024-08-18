@@ -137,6 +137,14 @@
    ul.footer-menu-list {
       gap: 20px;
    }
+   /* ============================about-us================== */
+   /* vission-mission */
+   .vm-img {
+      height: 500px;
+  }
+   .vision-wrapper, .mission-wrapper {
+      padding: 4rem 6rem;
+  }
 }
 
 /* ===========================992================== */
@@ -318,6 +326,21 @@
       gap: 10px;
       flex-wrap: wrap;
    }
+   /* ========================about-us======================== */
+   /* vission-mission */
+   .vision-wrapper, .mission-wrapper {
+      padding: 2rem 3rem;
+  }
+  /* Our services */
+  .service {
+   margin-bottom: 5rem;
+}
+.left-services {
+   padding-right: 1rem;
+}
+.right-services {
+   padding-left: 1rem;
+}
 }
 
 /* ===========================767================== */
@@ -348,7 +371,7 @@
       height: max-content;
    }
 
-   .hero-wrapper.container {
+   #home-hero .hero-wrapper.container {
       width: 100%;
       max-width: 100%;
       padding: 0;
@@ -368,9 +391,11 @@
 
    .hlh-thin,
    .hlh {
-      font-size: 3.5rem;
+      font-size: 3rem;
    }
-
+   .hlh{
+      font-weight: 400;
+   }
    .hlbt {
       font-size: 1rem;
    }
@@ -492,6 +517,60 @@
   .footer-p {
    font-size: 14px;
 }
+/* =====================================about-us starts============================= */
+#aboutus-hero .hero-wrapper{
+   padding-top: 6rem;
+   padding-bottom: 3rem;
+}
+/* company details */
+.company-wrapper {
+   margin-top: 2rem;
+}
+.read-more .arrow-wrapper {
+   left: 0 !important;
+   top: 0;
+}
+.company-stat-p {
+   margin-bottom: 0;
+   font-size: 14px;
+}
+.details-info p {
+   color: var(--primary-text);
+   font-size: 14px;
+}
+.details-info {
+   display: grid;
+   grid-template-columns: 40% 50%;
+   margin-bottom: 1rem;
+   gap: 10%;
+}
+/* vision-mission */
+.vision-mission {
+   padding-bottom: 0rem;
+   margin-top: 4rem;
+}
+.vm-img {
+   display: none;
+}
+.mission-wrapper {
+   margin-top: 0rem !important;
+   margin-bottom: 0rem;
+}
+/* Our Services */
+.img-box {
+   overflow: hidden;
+   height: 500px;
+}
+.service-name {
+   margin-top: 1rem;
+   font-size: 22px;
+}
+.service {
+   margin-bottom: 3rem;
+}
+.right-services {
+   margin-top: 0;
+}
 }
 
 /* ===========================575================== */
@@ -517,11 +596,16 @@
       margin-top: 4rem;
    }
 
-   .hlh-thin,
+   /* .hlh-thin,
    .hlh {
       font-size: 2.5rem;
-   }
-
+   } */
+   .hlh-thin, .hlh {
+      font-size: 2rem;
+  }
+  .hlh{
+   font-weight: 400;
+  }
    .hero-right {
       top: 60%;
    }
@@ -542,6 +626,7 @@
    /* hero modal */
    .modal.show .modal-dialog {
       background: var(--nav-bg);
+      overflow: auto;
    }
 
    .modal-body {
@@ -666,4 +751,33 @@
   .footer-right a{
    margin-bottom: 1rem;
   }
+  /* ===========================about-us page============================ */
+  /* company-details */
+  .details-info {
+   display: grid;
+   grid-template-columns: 40% 53%;
+   margin-bottom: 1rem;
+   gap: 7%;
+}
+/* vision-mission */
+.vision-wrapper p, .mission-wrapper p {
+   margin-top: 1rem;
+   font-size: 15px;
+}
+.vision-wrapper, .mission-wrapper {
+   padding: 5rem 2rem;
+}
+/* Our Services */
+.img-box {
+   overflow: hidden;
+   height: 350px;
+}
+.left-services {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.right-services {
+   padding-left: 15px;
+   padding-right: 15px;
+}
 }
