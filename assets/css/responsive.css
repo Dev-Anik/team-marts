@@ -198,7 +198,7 @@
    }
 
    .navbar-toggler i {
-      color: var(--paper-white);
+      color: var(--primary-text);
       font-size: 30px;
    }
 
