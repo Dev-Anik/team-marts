@@ -72,6 +72,9 @@ var swiper = new Swiper(".mySwiper", {
 $('#sourcingModal').on('shown.bs.modal', function () {
   swiper.update();
 });
+$('#productModal').on('shown.bs.modal', function () {
+  swiper.update();
+});
 // owl carousel query
 $(document).ready(function() {
  
@@ -102,3 +105,5 @@ $('.next-btn').click(function(){
   $('.owl-next').click();
 })
 });
+
+

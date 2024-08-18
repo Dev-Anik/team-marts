@@ -874,6 +874,7 @@ ul.footer-menu-list li a:hover {
 .copyright {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .copyright-text {
     color: var(--primary-black) !important;
@@ -899,7 +900,7 @@ padding-bottom: 15rem;
 #aboutus-hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
-        url('../images/about-us-hero.webp') no-repeat center center;
+        url('../images/about-us-hero.webp');
 }
 /* Company Stats */
 .company-details .short-desc-wrapper{
@@ -1012,4 +1013,94 @@ section.our-service {
 }
 .right-services{
     margin-top: 5rem;
+}
+/* ============================================================================================== */
+                                /* Products Page Dedicated */
+/* ============================================================================================== */
+#products-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url('../images/product-hero.webp');
+}
+#products-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: max-content;
+}
+.row.product-option {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#products-hero .hero-wrapper {
+    margin-top: 20rem;
+    margin-bottom: 12rem;
+}
+.option{
+    position: relative;
+    cursor: pointer;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.option-name{
+    font-weight: 400;
+    margin-top: auto;
+    padding: 2rem;
+}
+.option-no {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 50%;
+    color:var(--primary-text);
+    border: 1px solid var(--primary-text);
+    font-size: 18px;
+    margin: 2rem;
+    transition: .5s ease-out;
+}
+.black-bg{
+    transition: background-color .3s ease-out;
+}
+.active-product{
+    background-color: var(--theme-color-1) !important;
+    color: var(--primary-text) !important;
+}
+.active-product .option-no{
+    background-color: var(--primary-text);
+    color:var(--theme-color-1);
+}
+.option:hover .option-no{
+    background-color: var(--primary-text);
+    color:var(--theme-color-1);
+}
+.product-code{
+    font-size: 22px;
+    color: var(--primary-black);
+    margin-top: .5rem;
+    margin-left: .5rem;
+    font-weight: 300;
+}
+.product-feature {
+    color: white;
+    padding: 1.5rem 0;
+    border-bottom: .5px solid #5a5a5a;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+span.green.bold-dot {
+    font-size: 35px;
+}
+#modalImg{
+    background: var(--primary-text);
+}
+.products img.service-img {
+    background: #dddddd;
+    padding: 1.5rem;
 }

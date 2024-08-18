@@ -145,6 +145,10 @@
    .vision-wrapper, .mission-wrapper {
       padding: 4rem 6rem;
   }
+  /* ================================product========================== */
+  .option {
+   height: 300px;
+}
 }
 
 /* ===========================992================== */
@@ -571,6 +575,15 @@
 .right-services {
    margin-top: 0;
 }
+.border-right-sm {
+   border-right: 1px solid var(--primary-text);
+}
+.border-top-sm {
+   border-top: 1px solid var(--primary-text);
+}
+.products .img-box {
+   height: max-content;
+}
 }
 
 /* ===========================575================== */
@@ -779,5 +792,20 @@
 .right-services {
    padding-left: 15px;
    padding-right: 15px;
+}
+/* ================================products page================================ */
+.option {
+   height: 200px;
+}
+.option-name {
+   font-size: 20px;
+}
+.option-no {
+   height: 35px;
+   width: 35px;
+   font-size: 15px;
+}
+.products .img-box {
+   height: max-content;
 }
 }
