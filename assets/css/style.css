@@ -801,7 +801,7 @@ cursor: pointer;
     padding-bottom: 5rem;
 }
 .custom-container-right {
-    padding-left: 7%;
+    padding-left: 2%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
