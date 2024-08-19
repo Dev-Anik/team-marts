@@ -47,38 +47,39 @@
     <!-- Header Starts -->
     <header class="header">
         <nav class="header-container navbar navbar-expand-lg">
-          <div class="container">
-            <a class="navbar-brand" href="#"><img class="brand-logo" src="assets/images/team-marts-logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="menu-icon fa-solid fa-bars"></i>
-              <i class="cross-icon fa-solid fa-xmark fade-out"></i>
-            </button>
-            <div class="collapse navbar-collapse" class="desk-only">
-              <ul class="navbar-nav container">
-                <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="about-us.html" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="products.html" class="nav-link active">Products</a></li>
-                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-                <li class="nav-item"><a href="media.html" class="nav-link">Media</a></li>
-                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-                <li class="nav-item"><a href="contact-us.html" class="nav-link">Contact Us</a></li>
-              </ul>
+            <div class="container">
+                <a class="navbar-brand" href="#"><img class="brand-logo" src="assets/images/team-marts-logo.png"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="menu-icon fa-solid fa-bars"></i>
+                    <i class="cross-icon fa-solid fa-xmark fade-out"></i>
+                </button>
+                <div class="collapse navbar-collapse" class="desk-only">
+                    <ul class="navbar-nav container">
+                        <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a href="about-us.html" class="nav-link">About Us</a></li>
+                        <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+                        <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="media.html" class="nav-link active">Media</a></li>
+                        <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href="contact-us.html" class="nav-link">Contact Us</a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </nav>
         <div class="mob-menu container">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
                 <li class="nav-item"><a href="about-us.html" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="products.html" class="nav-link active">Products</a></li>
+                <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
                 <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-                <li class="nav-item"><a href="media.html" class="nav-link">Media</a></li>
+                <li class="nav-item"><a href="media.html" class="nav-link active">Media</a></li>
                 <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
                 <li class="nav-item"><a href="contact-us.html" class="nav-link">Contact Us</a></li>
-          </ul>
+            </ul>
         </div>
-      </header>
+    </header>
     <!-- Header Ends -->
 
     <!-- Main Starts -->
@@ -88,44 +89,35 @@
             <div class="hero-wrapper container">
                 <div class="row hero-content">
                     <div class="col">
-                        <h6 class="hero-name">Products</h6>
-                        <h2 class="hlh-thin">OUR SPECIALIZED</h2>
-                        <h2 class="hlh">DENIM APPARELS</h2>
+                        <h6 class="hero-name">Media</h6>
+                        <h2 class="hlh">WHAT IS HAPPENING</h2>
+                        <h2 class="hlh-thin">AT ECO SOURCING</h2>
                     </div>
                 </div>
             </div>
             <div class="row product-option">
-                <div class="col-6 col-lg-3 option black-bg active-product border-right-sm" onclick="showProduct(event,1)">
+                <div class="col-6 col-lg-3 option black-bg active-product border-right-sm"
+                    onclick="showProduct(event,1)">
                     <div class="option-no">01</div>
-                    <h2 class="option-name">Mens</h2>
+                    <h2 class="option-name">News</h2>
                 </div>
                 <div class="col-6 col-lg-3 option black-bg" onclick="showProduct(event,2)">
                     <div class="option-no">02</div>
-                    <h2 class="option-name">Womens</h2>
-                </div>
-                <div class="col-6 col-lg-3 option black-bg border-right-sm border-top-sm" onclick="showProduct(event,3)">
-                    <div class="option-no">03</div>
-                    <h2 class="option-name">Boys</h2>
-                </div>
-                <div class="col-6 col-lg-3 option black-bg border-top-sm" onclick="showProduct(event,4)">
-                    <div class="option-no">04</div>
-                    <h2 class="option-name">Girls</h2>
+                    <h2 class="option-name">Events</h2>
                 </div>
             </div>
         </section>
-        <!-- Products Start -->
-         <section class="products">
-            <div class="container">
-                <!-- Mans -->
-                <div class="row" id="mensServicesContainer"></div>
-                <!-- Womans -->
-                <div id="womansServicesContainer" class="row fade-out"></div>
-                <!-- Boys -->
-                <div id="boysServicesContainer" class="row fade-out"></div>
-                <!-- Girls -->
-                <div id="girlsServicesContainer" class="row fade-out"></div>
-            </div>
-         </section>
+
+        <section class="media-show">
+             <div class="container">
+                <div class="row short-desc-wrapper">
+                    <div class="col-12">
+                        <h2 class="hlh-thin grey-text">No content available right now.</h2>
+                    </div>
+                </div>
+             </div>
+        </section>
+
         <!-- Footer Starts -->
         <footer class="footer">
             <div class="row">
@@ -160,9 +152,9 @@
                             <ul class="footer-menu-list">
                                 <li><a href="index.html" aria-current="page">Home</a></li>
                                 <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="products.html" class="footer-active">Products</a></li>
+                                <li><a href="products.html">Products</a></li>
                                 <li><a href="services.html">Services</a></li>
-                                <li><a href="media.html">Media</a></li>
+                                <li><a href="media.html" class="footer-active">Media</a></li>
                                 <li><a href="gallery.html">Gallery</a></li>
                                 <li><a href="contact-us.html">Contact Us</a></li>
                             </ul>
@@ -191,39 +183,7 @@
             </div>
         </footer>
         <!-- Footer Ends -->
-         <!-- Modal 1-->
-  <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-          <div class="row">
-            <div class="col-md-6 modal-body-left">
-              <div class="ripple-wrapper mob-only">
-                <div class="ripple" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></div>
-              </div>
-              <h2 class="modal-heading">Sourcing</h2>
-              <div class="product-feature"><span class="green bold-dot">• </span>SLim Fit.</div>
-              <div class="product-feature"><span class="green bold-dot">• </span>SLim Fit.</div>
-              <div class="product-feature"><span class="green bold-dot">• </span>SLim Fit.</div>
-            </div>
-            <div class="col-md-6 modal-body-right">
-              <div class="ripple-wrapper tab-only">
-                <div class="ripple" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></div>
-              </div>
-              <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <img src="assets/images/model-5.jpg" alt="" class="threeD-img" id="modalImg">
-                  </div>
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
     </main>
     <!-- Main Ends -->
 
@@ -241,5 +201,3 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/products.js"></script>
 </body>
-
-</html>

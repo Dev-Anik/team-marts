@@ -346,8 +346,9 @@
    padding-left: 1rem;
 }
 }
-
+/* ================================================================================= */
 /* ===========================767================== */
+/* ==================================================================================== */
 @media (max-width: 767px) {
    .tab-only {
       display: none;
@@ -522,9 +523,9 @@
    font-size: 14px;
 }
 /* =====================================about-us starts============================= */
-#aboutus-hero .hero-wrapper{
-   padding-top: 6rem;
-   padding-bottom: 3rem;
+#aboutus-hero .hero-wrapper {
+   padding-top: 12rem;
+   padding-bottom: 10rem;
 }
 /* company details */
 .company-wrapper {
@@ -584,9 +585,27 @@
 .products .img-box {
    height: max-content;
 }
+section.our-service {
+   margin-top: 0rem;
 }
+/* contact us page */
+.h-600 {
+   height: 450px;
+}
+.h-600 iframe{
+   height: 450px;
+}
+h2.green.corporate-head {
+   font-size: 22px;
+   font-weight: 300;
+   margin-bottom: 1rem;
+   margin-top: -5rem;
 
+}
+}
+/* ========================================================================= */
 /* ===========================575================== */
+/* ============================================================================= */
 @media (max-width: 575px) {
    .mob-menu.mob-active {
       padding: 1rem;
@@ -669,7 +688,9 @@
    .modal-text {
       font-size: 14px;
    }
-
+   .hr-top-grid {
+      margin-top: 2rem;
+  }
    /* ripple */
    .ripple-wrapper {
       position: absolute;
@@ -807,5 +828,18 @@
 }
 .products .img-box {
    height: max-content;
+}
+/* Contact Us  */
+h2.green.corporate-head {
+   margin-top: 0rem;
+}
+.office-address  .custom-container-left {
+   padding-top: 5rem;
+   padding-left: 2rem;
+}
+.input-grid {
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 10px;
 }
 }
