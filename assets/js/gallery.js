@@ -22,14 +22,3 @@ function showProduct(event, productVal) {
     }
 }
 
-
-
-for (let i = 1; i <= 50; i++) {
-    let mb4Class = (i % 3 === 1) ? " mb-4" : "";
-    console.log(`
-<div class="col-6 col-md-4${mb4Class}">
-    <div class="gallery-img-container">
-        <img src="assets/images/gallery/gallery (${i}).webp" alt="">
-    </div>
-</div>`);
-}
