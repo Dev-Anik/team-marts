@@ -400,6 +400,9 @@
    }
 
    /* hero section */
+   #home-hero{
+      padding-bottom: 0rem;
+   }
    .hero {
       margin-top: 70px;
       height: max-content;
