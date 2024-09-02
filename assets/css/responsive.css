@@ -69,10 +69,33 @@
 /* ===========================1668================== */
 @media screen and (max-width:1668px) {
 
+   /* hero */
+   #home-hero {
+      height: max-content;
+      padding-bottom: 5rem;
+    }
+   .hero-left-box {
+      width: 180px;
+      height: 180px;
+    }
+    .hlh-thin , .hlh{
+       font-size: 2.5rem;
+     }
+    .hero-right-grid {
+      padding-top: 2rem;
+    }
+    .hrgh {
+      font-size: 30px;
+    }
+    .gn {
+      font-size: 30px;
+    }
+
    /* why us */
    .why-us-left {
       padding-left: 11%;
    }
+
 }
 
 /* ===========================1399================== */
@@ -345,6 +368,12 @@
 .right-services {
    padding-left: 1rem;
 }
+/* ================================gallery page================================ */
+.gallery-img-container img {
+   width: 160px;
+   height: 250px;
+   object-fit: contain;
+ }
 }
 /* ================================================================================= */
 /* ===========================767================== */
@@ -374,6 +403,7 @@
    .hero {
       margin-top: 70px;
       height: max-content;
+      padding-bottom: 0rem;
    }
 
    #home-hero .hero-wrapper.container {
@@ -815,7 +845,17 @@ h2.green.corporate-head {
    padding-left: 15px;
    padding-right: 15px;
 }
+/* ================================gallery page================================ */
+.gallery-img-container {
+   height: 280px;
+ }
 /* ================================products page================================ */
+/* hero */
+#products-hero {
+   background: linear-gradient(rgba(0, 0, 0, 0.5),
+           rgba(0, 0, 0, 0.5)),
+       url('../images/pro-hero-mob.webp');
+}
 .option {
    height: 200px;
 }
