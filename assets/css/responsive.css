@@ -820,6 +820,13 @@ h2.green.corporate-head {
    margin-bottom: 1rem;
   }
   /* ===========================about-us page============================ */
+  /* hero */
+  #aboutus-hero {
+   background: linear-gradient(rgba(0, 0, 0, 0.5),
+           rgba(0, 0, 0, 0.5)),
+       url('../images/about-us-hero-mob.webp');
+       background-size: cover;
+}
   /* company-details */
   .details-info {
    display: grid;
@@ -848,6 +855,13 @@ h2.green.corporate-head {
    padding-left: 15px;
    padding-right: 15px;
 }
+/* ================================our services================================ */
+.service-hero{
+   background: linear-gradient(rgba(0, 0, 0, 0.5),
+   rgba(0, 0, 0, 0.5)),
+url('../images/service-hero-mob.webp') !important;
+background-size: cover !important;
+}
 /* ================================gallery page================================ */
 .gallery-img-container {
    height: 280px;
@@ -859,6 +873,10 @@ h2.green.corporate-head {
            rgba(0, 0, 0, 0.5)),
        url('../images/pro-hero-mob.webp');
 }
+/* #products-hero .hero-wrapper {
+   margin-top: 12rem;
+   margin-bottom: 12rem;
+ } */
 .option {
    height: 200px;
 }

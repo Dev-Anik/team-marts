@@ -1276,6 +1276,11 @@ span.green.bold-dot {
 #service-page {
     margin-top: 0 !important;
 }
+.service-hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+url('../images/service-hero.webp') !important;
+}
 
 /* ============================================================================================== */
 /* Contact Us Page Dedicated */
@@ -1343,6 +1348,11 @@ textarea.two-col {
 /* ============================================================================================== */
 /* Media  Page Dedicated */
 /* ============================================================================================== */
+.media-hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url('../images/media-new-hero.webp') no-repeat center center !important;
+}
 .grey-text {
     color: #c0c0c0;
 }
