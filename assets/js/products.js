@@ -596,12 +596,11 @@ function createServiceDivs(services, containerId) {
 }
 
 // Call the function on page load for each category
-document.addEventListener('DOMContentLoaded', function() {
     createServiceDivs(mensServices, 'mensServicesContainer');
     createServiceDivs(womansServices, 'womansServicesContainer');
     createServiceDivs(boysServices, 'boysServicesContainer');
     createServiceDivs(girlsServices, 'girlsServicesContainer');
-});
+
 
 
 
