@@ -268,93 +268,78 @@ const womansServices = [
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/shorts-f (1).webp',
+        imgSrc: 'assets/images/womans/woman-long (1).webp',
         productCode: 'WOM026',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/shorts-f (1).webp',
+        imgSrc: 'assets/images/womans/woman-long (2).webp',
         productCode: 'WOM027',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/shorts-f (1).webp',
+        imgSrc: 'assets/images/womans/woman-long (3).webp',
         productCode: 'WOM028',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/woman-long (1).webp',
+        imgSrc: 'assets/images/womans/woman-long (4).webp',
         productCode: 'WOM029',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/woman-long (2).webp',
+        imgSrc: 'assets/images/womans/woman-long (5).webp',
         productCode: 'WOM030',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/woman-long (3).webp',
+        imgSrc: 'assets/images/womans/woman-long (6).webp',
         productCode: 'WOM031',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/woman-long (4).webp',
+        imgSrc: 'assets/images/womans/woman-long (7).webp',
         productCode: 'WOM032',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/woman-long (5).webp',
+        imgSrc: 'assets/images/womans/woman-long (8).webp',
         productCode: 'WOM033',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/woman-long (6).webp',
+        imgSrc: 'assets/images/womans/woman-long (9).webp',
         productCode: 'WOM034',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/woman-long (7).webp',
+        imgSrc: 'assets/images/womans/woman-long (10).webp',
         productCode: 'WOM035',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/woman-long (8).webp',
+        imgSrc: 'assets/images/womans/woman-shorts-non-denim (1).webp',
         productCode: 'WOM036',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/woman-long (9).webp',
+        imgSrc: 'assets/images/womans/woman-shorts-non-denim (2).webp',
         productCode: 'WOM037',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/woman-long (10).webp',
+        imgSrc: 'assets/images/womans/woman-shorts-non-denim (3).webp',
         productCode: 'WOM038',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/woman-shorts-non-denim (1).webp',
+        imgSrc: 'assets/images/womans/woman-shorts-non-denim (4).webp',
         productCode: 'WOM039',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/womans/woman-shorts-non-denim (2).webp',
-        productCode: 'WOM040',
-        productInfo: ['Slim Fit']
-    },
-    {
-        imgSrc: 'assets/images/womans/woman-shorts-non-denim (3).webp',
-        productCode: 'WOM041',
-        productInfo: ['Slim Fit']
-    },
-    {
-        imgSrc: 'assets/images/womans/woman-shorts-non-denim (4).webp',
-        productCode: 'WOM042',
-        productInfo: ['Slim Fit']
-    },
-    {
         imgSrc: 'assets/images/womans/woman-shorts-non-denim (5).webp',
-        productCode: 'WOM043',
+        productCode: 'WOM040',
         productInfo: ['Slim Fit']
     }
     // Add more service objects as needed
