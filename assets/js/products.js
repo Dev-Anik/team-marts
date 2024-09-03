@@ -81,12 +81,12 @@ const mensServices = [
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/mans/jacket-2(f).webp',
+        imgSrc: 'assets/images/mans/jacket-2(F).webp',
         productCode: 'MENS018',
         productInfo: ['Slim Fit']
     },
     {
-        imgSrc: 'assets/images/mans/jacket-3(f).webp',
+        imgSrc: 'assets/images/mans/jacket-3(F).webp',
         productCode: 'MENS019',
         productInfo: ['Slim Fit']
     },
