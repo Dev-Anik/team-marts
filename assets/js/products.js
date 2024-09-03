@@ -2,137 +2,137 @@
 const mensServices = [
     {
         imgSrc: 'assets/images/mans/Mens-1(F).webp',
-        productCode: 'MANS001',
+        productCode: 'MENS001',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/Mens-2(F).webp',
-        productCode: 'MANS002',
+        productCode: 'MENS002',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/Mens-3(F).webp',
-        productCode: 'MANS003',
+        productCode: 'MENS003',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/Mens-4(F).webp',
-        productCode: 'MANS004',
+        productCode: 'MENS004',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/Mens-5(F).webp',
-        productCode: 'MANS005',
+        productCode: 'MENS005',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/Mens-6(F).webp',
-        productCode: 'MANS006',
+        productCode: 'MENS006',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/Short-7(F).webp',
-        productCode: 'MANS007',
+        productCode: 'MENS007',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/1.webp',
-        productCode: 'MANS008',
+        productCode: 'MENS008',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/2.webp',
-        productCode: 'MANS009',
+        productCode: 'MENS009',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/Untitled-1f.webp',
-        productCode: 'MANS011',
+        productCode: 'MENS011',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/Untitled-2f.webp',
-        productCode: 'MANS012',
+        productCode: 'MENS012',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/Untitled-3f.webp',
-        productCode: 'MANS013',
+        productCode: 'MENS013',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/Untitled-4f.webp',
-        productCode: 'MANS014',
+        productCode: 'MENS014',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/Untitled-5f.webp',
-        productCode: 'MANS015',
+        productCode: 'MENS015',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/Untitled-6f.webp',
-        productCode: 'MANS016',
+        productCode: 'MENS016',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/jacket-1(f).webp',
-        productCode: 'MANS017',
+        productCode: 'MENS017',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/jacket-2(f).webp',
-        productCode: 'MANS018',
+        productCode: 'MENS018',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/jacket-3(f).webp',
-        productCode: 'MANS019',
+        productCode: 'MENS019',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/jacket-4 (F).webp',
-        productCode: 'MANS020',
+        productCode: 'MENS020',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/jacket-5f.webp',
-        productCode: 'MANS021',
+        productCode: 'MENS021',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/jacket-6f.webp',
-        productCode: 'MANS022',
+        productCode: 'MENS022',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/jacket-7f.webp',
-        productCode: 'MANS023',
+        productCode: 'MENS023',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/jacket-8f.webp',
-        productCode: 'MANS024',
+        productCode: 'MENS024',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/jacket-9(F).webp',
-        productCode: 'MANS025',
+        productCode: 'MENS025',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/jacket-10(F).webp',
-        productCode: 'MANS026',
+        productCode: 'MENS026',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/men-short-1.webp',
-        productCode: 'MANS027',
+        productCode: 'MENS027',
         productInfo: ['Slim Fit']
     },
     {
         imgSrc: 'assets/images/mans/men-short-2.webp',
-        productCode: 'MANS028',
+        productCode: 'MENS028',
         productInfo: ['Slim Fit']
     }
 
