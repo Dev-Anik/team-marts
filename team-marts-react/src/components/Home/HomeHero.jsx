@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react';
-import SourcingModal from './SourcingModal';
+import SourcingModal from '../SourcingModal';
 const HomeHero = () => {
     const [modalData, setModalData] = useState({});
     let [show, setShow] = useState(false);
