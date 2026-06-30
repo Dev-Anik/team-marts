@@ -1,8 +1,8 @@
 import React from 'react'
 import ProductOption from './ProductOption'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
-const ProductsHero = () => {
+const ProductsHero = ({setSelectedType}) => {
     const productOption = [
         {
             type: "Mens"
@@ -20,8 +20,13 @@ const ProductsHero = () => {
 
     const [activeType, setActiveType] = useState(productOption[0].type);
 
+    useEffect(() => {
+        setSelectedType(productOption[0].type);
+    }, [setSelectedType]);
+
     const handleActive = (type) => {
         setActiveType(type);
+        setSelectedType(type);
     }
 
     return (
